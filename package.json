@@ -12,10 +12,8 @@
   "module": "dist/s-offline.esm.js",
   "unpkg": "dist/s-offline.js",
   "jsdelivr": "dist/s-offline.js",
-  "cdn": "dist/s-offline.js",
-  "files": [
-    "dist"
-  ],
+  "cdn": "dist/s-offline.min.js",
+  "files": ["dist"],
   "keywords": [
     "Svelte",
     "S-Offline",
@@ -29,8 +27,14 @@
     "type": "git"
   },
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w"
+    "build": "npm run bundle && npm run bundle:min",
+    "bundle": "rollup -c build/rollup.config.js",
+    "bundle:min": "rollup -c build/rollup.min.config.js",
+    "release:prepare": "shipjs prepare",
+    "release:trigger": "shipjs trigger"
+  },
+  "dependencies": {
+    "ping.js": "^0.2.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
@@ -41,10 +45,8 @@
     "rollup": "^2.10.9",
     "rollup-plugin-svelte": "^5.2.2",
     "rollup-plugin-terser": "^6.1.0",
+    "shipjs": "0.19.0",
     "svelte": "^3.22.3"
-  },
-  "dependencies": {
-    "ping.js": "^0.2.3"
   },
   "license": "MIT",
   "bugs": {
