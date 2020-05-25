@@ -1,6 +1,7 @@
 # S-Offline 🗼
 
-<a href="http://npmjs.org/package/s-offline"><img src="https://img.shields.io/npm/v/s-offline.svg" alt="npm version"></a> <a href="https://github.com/vinayakkulkarni/s-offline/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/vinayakkulkarni/s-offline?include_prereleases"></a> <a href="https://github.com/vinayakkulkarni/s-offline/actions?query=workflow%3A%22Ship+js+trigger%22"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/vinayakkulkarni/s-offline/Ship%20js%20trigger"></a> <a href="https://bundlephobia.com/result?p=s-offline"><img src="http://img.badgesize.io/vinayakkulkarni/s-offline/master/dist/s-offline.min.js?compression=gzip" alt="gzip size"></a> <a href="http://npm-stat.com/charts.html?package=s-offline"><img src="https://img.shields.io/npm/dm/s-offline.svg" alt="npm downloads"></a> 
+<a href="http://npmjs.org/package/s-offline"><img src="https://img.shields.io/npm/v/s-offline.svg" alt="npm version"></a> <a href="https://github.com/vinayakkulkarni/s-offline/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/vinayakkulkarni/s-offline?include_prereleases"></a> <a href="https://github.com/vinayakkulkarni/s-offline/actions?query=workflow%3A%22Ship+js+trigger%22"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/vinayakkulkarni/s-offline/Ship%20js%20trigger"></a> <a href="https://bundlephobia.com/result?p=s-offline"><img src="http://img.badgesize.io/vinayakkulkarni/s-offline/master/dist/s-offline.min.js?compression=gzip" alt="gzip size"></a> <a href="http://npm-stat.com/charts.html?package=s-offline"><img src="https://img.shields.io/npm/dm/s-offline.svg" alt="npm downloads"></a> <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fs-offline?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fs-offline.svg?type=shield"/></a>
+
 
 * Detect offline & online events for your svelte app, inspired from [v-offline](https://github.com/vinayakkulkarni/v-offline)
 
@@ -83,3 +84,7 @@ CDN: [UNPKG](https://unpkg.com/s-offline/dist/) | [jsDelivr](https://cdn.jsdeliv
 Authored and maintained by Vinayak Kulkarni with help from contributors ([list](https://github.com/vinayakkulkarni/s-offline/contributors)).
 
 > [vinayakkulkarni.dev](https://vinayakkulkarni.dev) · GitHub [@vinayakkulkarni](https://github.com/vinayakkulkarni) · Twitter [@\_vinayak_k](https://twitter.com/_vinayak_k)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fs-offline.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fs-offline?ref=badge_large)
