@@ -27,7 +27,7 @@ CDN: [UNPKG](https://unpkg.com/s-offline/dist/) | [jsDelivr](https://cdn.jsdeliv
 
 ```html
 <script>
-  import SOffline from '../src/SOffline.svelte';
+  import SOffline from 's-offline';
 	const handleNetworkChange = ({ detail }) => {
 		console.log('event details: ', detail);
 	}
