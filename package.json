@@ -1,0 +1,54 @@
+{
+  "name": "s-offline",
+  "description": "Offline and Online network detection 🗼",
+  "version": "0.0.0",
+  "author": {
+    "name": "Vinayak Kulkarni",
+    "email": "inbox.vinayak@gmail.com",
+    "url": "https://vinayakkulkarni.dev"
+  },
+  "private": false,
+  "main": "dist/s-offline.cjs.js",
+  "module": "dist/s-offline.esm.js",
+  "unpkg": "dist/s-offline.js",
+  "jsdelivr": "dist/s-offline.js",
+  "cdn": "dist/s-offline.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "Svelte",
+    "S-Offline",
+    "Detect Internet Connectivity",
+    "Network",
+    "Svelte Networks",
+    "Svelte Detect Network"
+  ],
+  "repository": {
+    "url": "git+https://github.com/vinayakkulkarni/s-offline",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "husky": "^4.2.5",
+    "rollup": "^2.10.9",
+    "rollup-plugin-svelte": "^5.2.2",
+    "rollup-plugin-terser": "^6.1.0",
+    "svelte": "^3.22.3"
+  },
+  "dependencies": {
+    "ping.js": "^0.2.3"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinayakkulkarni/s-offline/issues"
+  },
+  "homepage": "https://vinayakkulkarni.github.io/s-offline/"
+}
