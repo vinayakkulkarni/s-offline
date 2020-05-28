@@ -8,7 +8,7 @@ export default {
   output: {
     format: 'umd',
     name: 'SOffline',
-    file: 'dist/s-clappr.min.js',
+    file: 'dist/s-offline.min.js',
   },
   plugins: [
 		svelte({
