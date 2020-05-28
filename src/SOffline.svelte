@@ -1,24 +1,12 @@
 <script>
 	import Ping from 'ping.js';
-	import { onMount, onDestroy, createEventDispatcher } from 'svelte';
+	import { createEventDispatcher } from 'svelte';
 	// constants
 	const emit = createEventDispatcher();
-  const EVENTS = ['online', 'offline', 'load'];
   // props
   export let pingUrl = 'https://google.com';
 	// reactive variables - computed + data
 	$: isOnline = navigator.onLine || false; // data variable
-	// lifecycle hooks
-	onMount(() => {
-		EVENTS.forEach((event) =>
-			window.addEventListener(event, updateOnlineStatus()),
-		);
-  });
-  onDestroy(() => {
-    EVENTS.forEach((event) =>
-      window.removeEventListener(event, updateOnlineStatus()),
-    );
-  })
 	// methods
 	const updateOnlineStatus = () => {
 		const p = new Ping();
