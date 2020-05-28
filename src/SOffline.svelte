@@ -21,6 +21,8 @@
 	};
 </script>
 
+<svelte:window on:online={updateOnlineStatus} on:offline={updateOnlineStatus} on:load={updateOnlineStatus}/>
+
 {#if isOnline}
   <slot name="online">
     <!-- Fallback text -->
