@@ -7,6 +7,10 @@
 
 * This is [on GitHub](https://github.com/vinayakkulkarni/s-offline) so let me know if I've b0rked it somewhere, give me a star :star: if you like it :beers:
 
+## Demo
+
+[![Edit s-offline-demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/svelte-s-offline-demo-ziixr?fontsize=14&hidenavigation=1&theme=dark)
+
 ## Requirements
 
 * [Svelte](https://svelte.dev/) 3.x
