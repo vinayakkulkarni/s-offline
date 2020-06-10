@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: '23:30'
+  open-pull-requests-limit: 10
+  reviewers:
+  - vinayakkulkarni
+  assignees:
+  - vinayakkulkarni
+  labels:
+  - dependencies
+  commit-message:
+    prefix: fix
+    prefix-development: chore
+    include: scope
