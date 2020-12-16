@@ -46,7 +46,7 @@
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "eslint": "^7.9.0",
-    "eslint-plugin-svelte3": "^2.7.3",
+    "eslint-plugin-svelte3": "^3.0.0",
     "husky": "^4.3.0",
     "prettier": "^2.1.2",
     "prettier-plugin-svelte": "^1.2.1",
