@@ -49,7 +49,7 @@
     "eslint-plugin-svelte3": "^3.0.0",
     "husky": "^4.3.0",
     "prettier": "^2.1.2",
-    "prettier-plugin-svelte": "^1.2.1",
+    "prettier-plugin-svelte": "^2.0.0",
     "rollup": "^2.27.1",
     "rollup-plugin-svelte": "^7.0.0",
     "rollup-plugin-terser": "^7.0.2",
