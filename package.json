@@ -35,26 +35,27 @@
     "lint": "eslint \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
     "lintfix": "eslint --fix \"{,!(node_modules|public)/**/}*.{js,svelte}\" && npm run format",
     "format": "prettier --write \"{,!(node_modules|public|dist)/**/}*.{js,svelte}\"",
-    "release": "shipjs prepare"
+    "release": "shipjs prepare",
+    "prepare": "husky install"
   },
   "dependencies": {
     "ping.js": "^0.3.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.0.0",
-    "@commitlint/config-conventional": "^12.0.0",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "eslint": "^7.9.0",
-    "eslint-plugin-svelte3": "^3.0.0",
-    "husky": "^7.0.0",
-    "prettier": "^2.1.2",
-    "prettier-plugin-svelte": "^2.0.0",
-    "rollup": "^2.27.1",
-    "rollup-plugin-svelte": "^7.0.0",
+    "eslint": "^7.30.0",
+    "eslint-plugin-svelte3": "^3.2.0",
+    "husky": "^7.0.1",
+    "prettier": "^2.3.2",
+    "prettier-plugin-svelte": "^2.3.1",
+    "rollup": "^2.52.8",
+    "rollup-plugin-svelte": "^7.1.0",
     "rollup-plugin-terser": "^7.0.2",
-    "shipjs": "^0.23.0",
-    "svelte": "^3.25.1"
+    "shipjs": "^0.23.3",
+    "svelte": "^3.38.3"
   },
   "license": "MIT",
   "bugs": {
