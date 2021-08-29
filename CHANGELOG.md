@@ -1,3 +1,17 @@
+# [0.3.0](https://github.com/vinayakkulkarni/s-offline/compare/v0.2.1...v0.3.0) (2021-08-29)
+
+
+### Bug Fixes
+
+* typings & minor housekeeping of eslint ([6a7aa82](https://github.com/vinayakkulkarni/s-offline/commit/6a7aa82a641b14be4db5236baea92c13bbe4ab00))
+
+
+### Features
+
+* minor housekeeping ([49c0c8d](https://github.com/vinayakkulkarni/s-offline/commit/49c0c8d1eb3617957fbf7509108b4ad1646af11f))
+
+
+
 ## [0.2.1](https://github.com/vinayakkulkarni/s-offline/compare/v0.2.0...v0.2.1) (2021-07-08)
 
 

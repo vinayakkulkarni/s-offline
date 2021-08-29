@@ -1,6 +1,6 @@
 {
   "name": "s-offline",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Offline and Online network detection 🗼",
   "types": "types/index.d.ts",
   "main": "dist/s-offline.cjs.js",
