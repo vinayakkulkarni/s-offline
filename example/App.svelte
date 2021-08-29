@@ -5,6 +5,14 @@
   };
 </script>
 
+<SOffline
+  pingUrl="https://bitly.com"
+  on:detectedCondition={handleNetworkChange}
+>
+  <span slot="online" class="online">😊</span>
+  <span slot="offline" class="offline">🤕</span>
+</SOffline>
+
 <style>
   .online {
     font-size: 10rem;
@@ -15,10 +23,3 @@
     text-align: center;
   }
 </style>
-
-<SOffline
-  pingUrl="https://bitly.com"
-  on:detectedCondition={handleNetworkChange}>
-  <span slot="online" class="online">😊</span>
-  <span slot="offline" class="offline">🤕</span>
-</SOffline>

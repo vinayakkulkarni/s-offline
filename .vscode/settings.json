@@ -1,0 +1,7 @@
+{
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "files.eol": "\n",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

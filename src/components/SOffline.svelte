@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import Ping from 'ping.js';
   import { createEventDispatcher } from 'svelte';
   // constants
@@ -24,7 +24,8 @@
 <svelte:window
   on:online={updateOnlineStatus}
   on:offline={updateOnlineStatus}
-  on:load={updateOnlineStatus} />
+  on:load={updateOnlineStatus}
+/>
 
 {#if isOnline}
   <slot name="online">
