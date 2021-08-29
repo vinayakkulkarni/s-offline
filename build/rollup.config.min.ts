@@ -7,6 +7,7 @@ import sucrase from '@rollup/plugin-sucrase';
 import scss from 'rollup-plugin-scss';
 import svelte from 'rollup-plugin-svelte';
 import { terser } from 'rollup-plugin-terser';
+import autoPreprocess from 'svelte-preprocess';
 import pkg from '../package.json';
 
 const plugins = [
@@ -23,7 +24,10 @@ const plugins = [
     extensions: ['.js', '.ts', '.svelte'],
     exclude: 'src/**',
   }),
-  svelte({ emitCss: true }),
+  svelte({
+    emitCss: true,
+    preprocess: autoPreprocess(),
+  }),
   scss({
     output: 'dist/s-offline.min.css',
     // @ts-ignore

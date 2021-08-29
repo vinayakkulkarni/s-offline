@@ -4,4 +4,8 @@ export type SOfflineProps = {
   pingUrl?: string;
 };
 
-export const SOffline: SvelteComponentTyped<SOfflineProps>;
+export interface SOfflineEvents {
+  detectedCondition: { isOnline: boolean };
+}
+
+export const SOffline: SvelteComponentTyped<SOfflineProps, SOfflineEvents>;
