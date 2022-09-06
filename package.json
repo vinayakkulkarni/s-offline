@@ -1,6 +1,6 @@
 {
   "name": "s-offline",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Offline and Online network detection 🗼",
   "type": "module",
   "types": "types/index.d.ts",
