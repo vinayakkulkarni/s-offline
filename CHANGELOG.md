@@ -1,3 +1,30 @@
+# [0.4.0](https://github.com/vinayakkulkarni/s-offline/compare/v0.3.0...v0.4.0) (2022-09-06)
+
+
+### Bug Fixes
+
+* **deps:** bump actions/checkout from 2 to 3 ([295ae07](https://github.com/vinayakkulkarni/s-offline/commit/295ae078e59c5e8d4956ec9cf9be61b189d72be4))
+* **deps:** bump actions/setup-node from 2.4.0 to 2.4.1 ([197451e](https://github.com/vinayakkulkarni/s-offline/commit/197451eb87bd0f57d700215808287d4a20527901))
+* **deps:** bump actions/setup-node from 2.4.1 to 2.5.0 ([e45becd](https://github.com/vinayakkulkarni/s-offline/commit/e45becd1bd322fe48e34e4fa77398df50d1b0134))
+* **deps:** bump actions/setup-node from 2.5.0 to 2.5.1 ([187083b](https://github.com/vinayakkulkarni/s-offline/commit/187083bae4733c56c0dffe80ce183324ece76a8e))
+* **deps:** bump actions/setup-node from 2.5.1 to 3 ([4503077](https://github.com/vinayakkulkarni/s-offline/commit/450307730b037f24b79eef6d72e4f4b239cb3cbf))
+* **deps:** bump ansi-regex from 5.0.0 to 5.0.1 ([e5ae250](https://github.com/vinayakkulkarni/s-offline/commit/e5ae2500b6c8ad6bb2cb8e41afa853c8105cfd2d))
+* **deps:** bump axios from 0.21.1 to 0.21.4 ([386c24c](https://github.com/vinayakkulkarni/s-offline/commit/386c24c9ef1a33412e4c86d9b048ea55bf9ea846))
+* **deps:** bump ejs from 3.1.6 to 3.1.7 ([c3834a7](https://github.com/vinayakkulkarni/s-offline/commit/c3834a73755c8903050a6bbd3c5410457fbe0053))
+* **deps:** bump follow-redirects from 1.14.2 to 1.14.8 ([00a8b96](https://github.com/vinayakkulkarni/s-offline/commit/00a8b96409cf983f2fc4e63844b45e6b7669f0d5))
+* **deps:** bump minimist from 1.2.5 to 1.2.6 ([a0b1c1b](https://github.com/vinayakkulkarni/s-offline/commit/a0b1c1b5d81f0d2ba1aafe7babf77d7b284c0022))
+* **deps:** bump node-fetch from 2.6.1 to 2.6.7 ([ed894d5](https://github.com/vinayakkulkarni/s-offline/commit/ed894d5f47ae8372cfd9186d437b2f45325107ad))
+* **deps:** bump shell-quote from 1.7.2 to 1.7.3 ([2082fcb](https://github.com/vinayakkulkarni/s-offline/commit/2082fcb3a2c1d2ecde6cd1f9acc1f7c612572845))
+* **deps:** bump terser from 5.7.2 to 5.14.2 ([1ff090e](https://github.com/vinayakkulkarni/s-offline/commit/1ff090e39b622cba8c5e87a45319da1fb4f3ea25))
+
+
+### Features
+
+* add `svelte.config.js` config file 🚨 ([7af9728](https://github.com/vinayakkulkarni/s-offline/commit/7af972888bce3da28c5671e14a0f2acff67a56a9))
+* add node version file 😍 ([31101ad](https://github.com/vinayakkulkarni/s-offline/commit/31101ad011591b477de227c57f670723d03487af))
+
+
+
 # [0.3.0](https://github.com/vinayakkulkarni/s-offline/compare/v0.2.1...v0.3.0) (2021-08-29)
 
 
