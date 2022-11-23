@@ -65,7 +65,7 @@
     "rollup-plugin-svelte": "^7.1.0",
     "rollup-plugin-terser": "^7.0.2",
     "sass": "^1.54.8",
-    "shipjs": "^0.24.4",
+    "shipjs": "^0.25.0",
     "stylelint": "^14.11.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended-scss": "^8.0.0",
