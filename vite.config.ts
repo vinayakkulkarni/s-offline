@@ -19,7 +19,7 @@ export default defineConfig({
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'SOffline',
       formats: ['es', 'cjs', 'umd', 'iife'],
-      fileName: 's-offline',
+      fileName: pkg.name,
     },
     commonjsOptions: {
       extensions: ['.js', '.ts', '.svelte'],
@@ -29,7 +29,7 @@ export default defineConfig({
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
       // into your library
-      external: ['svelte', 'ping.js'],
+      external: ['svelte', 'svelte/internal', 'ping.js'],
       output: {
         exports: 'named',
         banner,
@@ -39,6 +39,7 @@ export default defineConfig({
         // for externalized deps
         globals: {
           svelte: 'svelte',
+          'svelte/internal': 'svelte/internal',
           'ping.js': 'Ping',
         },
         assetFileNames: (assetInfo) => {

@@ -2,11 +2,11 @@
   import Ping from 'ping.js';
   import { createEventDispatcher } from 'svelte';
   // constants
-  const emit = createEventDispatcher();
+  const dispatch = createEventDispatcher();
   // props
-  export let pingUrl = 'https://google.com';
+  export let pingUrl: string = 'https://google.com';
   // reactive variables - computed + data
-  $: isOnline = navigator.onLine || false; // data variable
+  $: isOnline = navigator.onLine || false;
   // methods
   const updateOnlineStatus = () => {
     const p = new Ping();
@@ -16,7 +16,7 @@
       } else {
         isOnline = true;
       }
-      emit('detectedCondition', { online: isOnline });
+      dispatch('detectedCondition', { online: isOnline });
     });
   };
 </script>

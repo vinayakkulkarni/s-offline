@@ -2,20 +2,23 @@
   "name": "s-offline",
   "version": "0.4.0",
   "description": "Offline and Online network detection 🗼",
-  "type": "module",
-  "types": "types/index.d.ts",
-  "main": "dist/s-offline.cjs",
-  "module": "dist/s-offline.js",
-  "files": [
-    "dist",
-    "types"
-  ],
+  "main": "./dist/s-offline.js",
+  "module": "./dist/s-offline.js",
+  "umd": "./dist/s-offline.umd.js",
+  "unpkg": "./dist/s-offline.cjs",
+  "jsdelivr": "./dist/s-offline.cjs",
+  "cdn": "./dist/s-offline.js",
   "exports": {
     ".": {
       "import": "./dist/s-offline.js",
-      "require": "./dist/s-offline.umd.cjs"
+      "require": "./dist/s-offline.umd.js"
     }
   },
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
+  "type": "module",
   "scripts": {
     "build": "vite build",
     "test": "echo 'test!'",
@@ -39,43 +42,38 @@
   },
   "peerDependencies": {
     "ping.js": "^0.3.0",
-    "svelte": "^3.50.0"
+    "svelte": "^3.53.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.1.2",
-    "@commitlint/config-conventional": "^17.1.0",
-    "@sveltejs/vite-plugin-svelte": "^1.0.5",
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@sveltejs/vite-plugin-svelte": "^1.4.0",
     "@tsconfig/svelte": "^3.0.0",
-    "@types/node": "^18.7.15",
-    "@typescript-eslint/eslint-plugin": "^5.36.2",
-    "@typescript-eslint/parser": "^5.36.2",
-    "eslint": "^8.23.0",
+    "@types/node": "^18.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-jsdoc": "^39.3.6",
+    "eslint-plugin-jsdoc": "^39.6.4",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-security": "^1.5.0",
     "eslint-plugin-svelte3": "^4.0.0",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "postcss": "^8.4.16",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.4",
     "postcss-html": "^1.5.0",
-    "prettier": "^2.7.1",
-    "prettier-plugin-svelte": "^2.7.0",
-    "rollup": "^2.79.0",
-    "rollup-plugin-scss": "^3.0.0",
-    "rollup-plugin-svelte": "^7.1.0",
-    "rollup-plugin-terser": "^7.0.2",
-    "sass": "^1.54.8",
+    "prettier": "^2.8.0",
+    "prettier-plugin-svelte": "^2.8.1",
+    "sass": "^1.56.1",
     "shipjs": "^0.25.0",
-    "stylelint": "^14.11.0",
+    "stylelint": "^14.14.1",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended-scss": "^8.0.0",
-    "stylelint-config-standard": "^29.0.0",
-    "svelte": "^3.50.0",
-    "svelte-check": "^2.9.0",
+    "stylelint-prettier": "^2.0.0",
+    "svelte": "^3.53.1",
+    "svelte-check": "^2.10.0",
     "svelte-preprocess": "^4.10.7",
-    "tslib": "^2.4.0",
-    "typescript": "^4.8.2",
-    "vite": "^3.1.0"
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4"
   },
   "keywords": [
     "Svelte",
@@ -91,14 +89,18 @@
     "url": "https://vinayakkulkarni.dev"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.19.2"
+  },
   "repository": {
-    "url": "git+https://github.com/vinayakkulkarni/s-offline",
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/vinayakkulkarni/s-offline.git"
   },
   "private": false,
   "sideEffects": false,
   "bugs": {
     "url": "https://github.com/vinayakkulkarni/s-offline/issues"
   },
-  "homepage": "https://vinayakkulkarni.github.io/s-offline/"
+  "homepage": "https://github.com/vinayakkulkarni/v-offline#readme"
 }

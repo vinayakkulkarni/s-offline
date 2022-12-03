@@ -6,10 +6,14 @@ module.exports = {
   },
   parser: '@typescript-eslint/parser', // add the TypeScript parser
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2022,
     sourceType: 'module',
-    lib: ['es2020'],
+    lib: ['es2022'],
     tsconfigRootDir: __dirname,
+    ecmaFeatures: {
+      jsx: true,
+      tsx: true,
+    },
     extraFileExtensions: ['.svelte'],
   },
   overrides: [
@@ -18,12 +22,13 @@ module.exports = {
       processor: 'svelte3/svelte3',
     },
   ],
-  plugins: ['svelte3', 'security', 'jsdoc', '@typescript-eslint'],
+  plugins: ['svelte3', 'jsdoc', 'security', '@typescript-eslint', 'prettier'],
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:jsdoc/recommended',
     'plugin:security/recommended',
+    'plugin:prettier/recommended',
     'prettier',
   ],
   // add your custom rules here

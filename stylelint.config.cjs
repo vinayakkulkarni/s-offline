@@ -1,16 +1,18 @@
 module.exports = {
+  customSyntax: 'postcss-html',
+  plugins: ['stylelint-prettier'],
   extends: [
-    'stylelint-config-prettier',
-    'stylelint-config-standard',
+    'stylelint-prettier/recommended',
     'stylelint-config-recommended-scss',
   ],
-  ignoreFiles: [
-    'node_modules/*',
-    'src/assets/**',
-    'build/**',
-    'src/lib/styles/normalise.css',
-  ],
-  defaultSeverity: 'error',
-  customSyntax: 'postcss-html',
-  rules: {},
+  ignoreFiles: ['node_modules/*', 'src/assets/**'],
+  rules: {
+    'prettier/prettier': [
+      true,
+      {
+        singleQuote: true,
+        tabWidth: 2,
+      },
+    ],
+  },
 };

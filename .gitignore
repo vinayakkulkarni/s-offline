@@ -105,3 +105,4 @@ dist
 .DS_Store
 
 sw.*
+.svelte-kit
