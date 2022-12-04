@@ -1,0 +1,25 @@
+{
+  "name": "@vinayakkulkarni/s-offline-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.4.0",
+    "@tsconfig/svelte": "^3.0.0",
+    "svelte": "^3.53.1",
+    "svelte-check": "^2.10.0",
+    "svelte-preprocess": "^4.10.7",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4"
+  },
+  "dependencies": {
+    "s-offline": "^0.5.0"
+  }
+}
