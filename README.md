@@ -1,7 +1,7 @@
 # s-offline ⚡️
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vinayakkulkarni/s-offline/ci?logo=github-actions)](https://github.com/vinayakkulkarni/s-offline/actions/workflows/ci.yml)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vinayakkulkarni/s-offline/Ship%20js%20trigger?label=⛴%20Ship.js%20trigger)](https://github.com/vinayakkulkarni/s-offline/actions/workflows/shipjs-trigger.yml)
+[![Continuous Integration](https://github.com/vinayakkulkarni/s-offline/actions/workflows/ci.yml/badge.svg)](https://github.com/vinayakkulkarni/s-offline/actions/workflows/ci.yml)
+[![Ship js trigger](https://github.com/vinayakkulkarni/s-offline/actions/workflows/shipjs-trigger.yml/badge.svg)](https://github.com/vinayakkulkarni/s-offline/actions/workflows/shipjs-trigger.yml)
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vinayakkulkarni/s-offline?sort=semver&logo=github)](https://github.com/vinayakkulkarni/s-offline/releases)
 [![npm](https://img.shields.io/npm/v/s-offline?logo=npm)](https://www.npmjs.com/package/s-offline)
 [![npm](https://img.shields.io/npm/dm/s-offline?logo=npm)](http://npm-stat.com/charts.html?package=s-offline)
@@ -16,15 +16,14 @@
 
 [![eslint](https://img.shields.io/npm/dependency-version/s-offline/dev/eslint?logo=eslint)](https://eslint.org/)
 [![prettier](https://img.shields.io/npm/dependency-version/s-offline/dev/prettier?logo=prettier)](https://prettier.io/)
-[![rollup](https://img.shields.io/npm/dependency-version/s-offline/dev/rollup?logo=rollup.js)](https://rollupjs.org/guide/en/)
-[![svelte](https://img.shields.io/npm/dependency-version/s-offline/dev/svelte?logo=svelte)](https://vuejs.org/)
+[![vite](https://img.shields.io/npm/dependency-version/v-image/dev/vite?logo=vite)](https://vitejs.dev/)
+[![svelte](https://img.shields.io/npm/dependency-version/s-offline/dev/svelte?logo=svelte)](https://svelte.dev/)
 [![typescript](https://img.shields.io/npm/dependency-version/s-offline/dev/typescript?logo=TypeScript)](https://www.typescriptlang.org/)
 
 ## Features
 
-* Detect offline & online events for your Svelte app, inspired from [v-offline](https://github.com/vinayakkulkarni/v-offline)
-* Built from scratch using TypeScript
-
+- Detect offline & online events for your Svelte app, inspired from [v-offline](https://github.com/vinayakkulkarni/v-offline)
+- Built from scratch using TypeScript
 
 ## Table of Contents
 
@@ -47,11 +46,11 @@
 
 ## Demo
 
-[![Edit s-offline-demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/svelte-s-offline-demo-ziixr?fontsize=14&hidenavigation=1&theme=dark)
+[![Edit s-offline demo](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/s-offline?file=src/App.svelte)
 
 ## Requirements
 
-* [Svelte 3](https://svelte.dev/)
+- [Svelte 3](https://svelte.dev/)
 
 ### Installation
 
@@ -63,14 +62,13 @@ CDN: [UNPKG](https://unpkg.com/s-offline/dist/) | [jsDelivr](https://cdn.jsdeliv
 
 ### Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm ci
 
 # package the library
 $ npm run build
 ```
-
 
 ## Usage
 
@@ -88,54 +86,53 @@ import { SOffline } from 's-offline';
 ```html
 <script>
   import SOffline from 's-offline';
-	const handleNetworkChange = ({ detail }) => {
-		console.log('event details: ', detail);
-	}
+  const handleNetworkChange = (status) => {
+    console.log('event details: ', status);
+  };
 </script>
 
 <SOffline
-	pingUrl="https://bitly.com"
-	on:detectedCondition={handleNetworkChange}>
-		<span slot="online" class="online">
-			😊
-		</span>
-		<span slot="offline" class="offline">
-			🤕
-		</span>
+  pingUrl="https://bitly.com"
+  on:detectedCondition="{handleNetworkChange}"
+>
+  <span slot="online" class="online"> 😊 </span>
+  <span slot="offline" class="offline"> 🤕 </span>
 </SOffline>
 
 <style>
-.online {
-	font-size: 10rem;
-	text-align: center;
-}
-.offline {
-	font-size: 10rem;
-	text-align: center;
-}
+  .online {
+    font-size: 10rem;
+    text-align: center;
+  }
+  .offline {
+    font-size: 10rem;
+    text-align: center;
+  }
 </style>
 ```
+
 </details>
 
-
 ## API
+
 ### Props
 
-| Name            | Type   | Required? | Default              | Description                                                 |
-| --------------  | ------ | --------- | ---------            | ----------------------------------------------------------- |
-| `pingUrl`       | String | No        | https://google.com   | Pinging any url to double check if you're online or not.    |
+| Name      | Type   | Required? | Default            | Description                                              |
+| --------- | ------ | --------- | ------------------ | -------------------------------------------------------- |
+| `pingUrl` | String | No        | https://google.com | Pinging any url to double check if you're online or not. |
 
 ### Events
 
-| Name                  | Returns | Description            |
-| ---                   | ---     | ---                    |
-| `detectedCondition` | String  | Emits a boolean value  |
+| Name                | Returns | Description           |
+| ------------------- | ------- | --------------------- |
+| `detectedCondition` | String  | Emits a boolean value |
 
 ## Built with
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Svelte 3](https://svelte.dev/)
-## Contributing 
+
+## Contributing
 
 1. Fork it ( [https://github.com/vinayakkulkarni/s-offline/fork](https://github.com/vinayakkulkarni/s-offline/fork) )
 2. Create your feature branch (`git checkout -b feat/new-feature`)
@@ -143,11 +140,11 @@ import { SOffline } from 's-offline';
 4. Push to the branch (`git push origin feat/new-feature`)
 5. Create a new [Pull Request](https://github.com/vinayakkulkarni/s-offline/compare)
 
-_Note_: 
-1. Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow/)
+_Note_:
+
+1. Please contribute using [GitHub Flow](https://web.archive.org/web/20191104103724/https://guides.github.com/introduction/flow/)
 2. Commits & PRs will be allowed only if the commit messages & PR titles follow the [conventional commit standard](https://www.conventionalcommits.org/), _read more about it [here](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional#type-enum)_
 3. PS. Ensure your commits are signed. _[Read why](https://withblue.ink/2020/05/17/how-and-why-to-sign-git-commits.html)_
-
 
 ## Author
 
@@ -156,6 +153,6 @@ Authored and maintained by Vinayak Kulkarni with help from contributors ([list](
 
 > [vinayakkulkarni.dev](https://vinayakkulkarni.dev) · GitHub [@vinayakkulkarni](https://github.com/vinayakkulkarni) · Twitter [@\_vinayak_k](https://twitter.com/_vinayak_k)
 
-
 ## License
+
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fs-offline.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fs-offline?ref=badge_large)

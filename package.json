@@ -21,6 +21,7 @@
     "preview": "vite preview",
     "package": "svelte-package",
     "test": "echo 'test!'",
+    "postinstall": "svelte-kit sync",
     "prepare": "husky install",
     "lint": "npm run lint:prettier && npm run lint:eslint && npm run lint:css",
     "lintfix": "npm run lint:prettier:fix && npm run lint:eslint:fix && npm run lint:css:fix",
