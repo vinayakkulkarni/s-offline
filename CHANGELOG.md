@@ -1,3 +1,17 @@
+## [0.5.1](https://github.com/vinayakkulkarni/s-offline/compare/v0.5.0...v0.5.1) (2022-12-04)
+
+
+### Bug Fixes
+
+* remove `dist` dir from registry ([2f33f87](https://github.com/vinayakkulkarni/s-offline/commit/2f33f8744d6f7b8b709d6040042134bd24956c45))
+
+
+### Features
+
+* add docs & fix failing build ([11482ee](https://github.com/vinayakkulkarni/s-offline/commit/11482ee1ba31aed86040979484c0fc0a74bfabda))
+
+
+
 # [0.5.0](https://github.com/vinayakkulkarni/s-offline/compare/v0.4.0...v0.5.0) (2022-12-04)
 
 
