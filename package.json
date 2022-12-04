@@ -1,6 +1,6 @@
 {
   "name": "s-offline",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Offline and Online network detection 🗼",
   "main": "./index.js",
   "module": "./index.js",

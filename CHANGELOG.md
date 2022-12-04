@@ -1,3 +1,16 @@
+# [0.5.0](https://github.com/vinayakkulkarni/s-offline/compare/v0.4.0...v0.5.0) (2022-12-04)
+
+
+### Bug Fixes
+
+* **deps:** bump actions/setup-node from 3.4.1 to 3.5.0 ([ae83fcf](https://github.com/vinayakkulkarni/s-offline/commit/ae83fcff5007d8cf30641b9a5d7aefb91b5b0dee))
+* **deps:** bump actions/setup-node from 3.5.0 to 3.5.1 ([646582c](https://github.com/vinayakkulkarni/s-offline/commit/646582c1bd60254a1883f1b44ac03d9559e9904c))
+* **deps:** bump amannn/action-semantic-pull-request from 4 to 5 ([fa00125](https://github.com/vinayakkulkarni/s-offline/commit/fa00125c6a5cc55be4dab17e234310dd3f899309))
+* ignore `svelte-kit` ([538e609](https://github.com/vinayakkulkarni/s-offline/commit/538e60939729f12846d197e5442c90d8abcd39e2))
+* remove deploy-demo workflow ([0309da5](https://github.com/vinayakkulkarni/s-offline/commit/0309da59db74a5b9e00c413b83c164ca6297f152))
+
+
+
 # [0.4.0](https://github.com/vinayakkulkarni/s-offline/compare/v0.3.0...v0.4.0) (2022-09-06)
 
 
