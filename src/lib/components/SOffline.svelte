@@ -4,7 +4,7 @@
   // constants
   const dispatch = createEventDispatcher();
   // props
-  export let pingUrl: string = 'https://google.com';
+  export let pingUrl = 'https://google.com';
   // reactive variables - computed + data
   $: isOnline = navigator.onLine || false;
   // methods

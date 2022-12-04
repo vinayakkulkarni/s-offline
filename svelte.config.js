@@ -1,7 +1,21 @@
-import sveltePreprocess from 'svelte-preprocess';
+import adapter from '@sveltejs/adapter-static';
+import preprocess from 'svelte-preprocess';
 
-export default {
-  // Consult https://github.com/sveltejs/svelte-preprocess
-  // for more information about preprocessors
-  preprocess: sveltePreprocess(),
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
+  preprocess: preprocess(),
+  kit: {
+    adapter: adapter(),
+    files: {
+      lib: 'src/lib',
+      routes: 'src/routes',
+      appTemplate: 'src/_app.html',
+    },
+  },
+  package: {
+    dir: 'dist',
+    emitTypes: true,
+  },
 };
+
+export default config;

@@ -106,3 +106,5 @@ dist
 
 sw.*
 .svelte-kit
+build
+package
