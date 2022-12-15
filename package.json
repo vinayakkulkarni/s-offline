@@ -49,7 +49,7 @@
     "@commitlint/config-conventional": "^17.3.0",
     "@sveltejs/adapter-static": "^1.0.0-next.48",
     "@sveltejs/kit": "^1.0.0-next.578",
-    "@sveltejs/package": "^1.0.0-next.6",
+    "@sveltejs/package": "^1.0.0",
     "@tsconfig/svelte": "^3.0.0",
     "@types/node": "^18.11.12",
     "@typescript-eslint/eslint-plugin": "^5.46.0",
