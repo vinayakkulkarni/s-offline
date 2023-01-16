@@ -47,7 +47,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.0",
     "@commitlint/config-conventional": "^17.4.0",
-    "@sveltejs/adapter-static": "^1.0.3",
+    "@sveltejs/adapter-static": "^1.0.4",
     "@sveltejs/kit": "^1.0.11",
     "@sveltejs/package": "^1.0.2",
     "@tsconfig/svelte": "^3.0.0",
