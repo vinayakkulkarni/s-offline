@@ -48,7 +48,7 @@
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
     "@sveltejs/adapter-static": "^2.0.1",
-    "@sveltejs/kit": "^1.8.7",
+    "@sveltejs/kit": "^1.9.1",
     "@sveltejs/package": "^1.0.2",
     "@tsconfig/svelte": "^3.0.0",
     "@types/node": "^18.14.2",
