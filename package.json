@@ -2,13 +2,18 @@
   "name": "s-offline",
   "version": "0.5.1",
   "description": "Offline and Online network detection 🗼",
-  "main": "./index.js",
-  "module": "./index.js",
-  "umd": "./index.js",
-  "unpkg": "./index.js",
-  "jsdelivr": "./index.js",
-  "cdn": "./index.js",
-  "types": "./index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "umd": "./dist/index.js",
+  "unpkg": "./dist/index.js",
+  "jsdelivr": "./dist/index.js",
+  "cdn": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "!**/*spec.js",
+    "!**/*spec.d.ts"
+  ],
   "exports": {
     "./package.json": "./package.json",
     "./SOffline.svelte": {
