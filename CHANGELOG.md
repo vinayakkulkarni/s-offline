@@ -1,3 +1,25 @@
+# [0.6.0](https://github.com/vinayakkulkarni/s-offline/compare/v0.5.1...v0.6.0) (2023-04-11)
+
+
+### Bug Fixes
+
+* copy package & other meta files ([b1baff2](https://github.com/vinayakkulkarni/s-offline/commit/b1baff2326f31364ac6b00957feb78986d5d81fd))
+* **deps:** bump peaceiris/actions-gh-pages from 3.9.0 to 3.9.1 ([bce270b](https://github.com/vinayakkulkarni/s-offline/commit/bce270bd3986a79627b4aee4f8a1027fcf8aecc5))
+* **deps:** bump peaceiris/actions-gh-pages from 3.9.1 to 3.9.2 ([2e0a2d7](https://github.com/vinayakkulkarni/s-offline/commit/2e0a2d7c2e5c9b3e0b37ff34e11493def33159f8))
+* **deps:** Bump peaceiris/actions-gh-pages from 3.9.2 to 3.9.3 ([dfa1c3d](https://github.com/vinayakkulkarni/s-offline/commit/dfa1c3db600dd644a8b27f95db4c71f56bf06e2c))
+* **deps:** bump undici and @sveltejs/kit in /example ([a92539e](https://github.com/vinayakkulkarni/s-offline/commit/a92539e3318e955bbfc7a3fcab1d68ce1060fec3))
+* migrate svelte-package dep ([4180783](https://github.com/vinayakkulkarni/s-offline/commit/4180783d5c628b7b9919b15724398a575e33f6c6))
+* remove buildCommand ([3207a3c](https://github.com/vinayakkulkarni/s-offline/commit/3207a3c9f36af362d36aa38151c1b14db039dc78))
+* shipjs trigger requires github actor ([19f979a](https://github.com/vinayakkulkarni/s-offline/commit/19f979aac94678cf5c54128793ab19e8d523c722))
+* use correct node version ([7533cd5](https://github.com/vinayakkulkarni/s-offline/commit/7533cd58c1f156015da56534bbee820dc9c41533))
+
+
+### Features
+
+* add automerger workflow 🎉 ([da9a260](https://github.com/vinayakkulkarni/s-offline/commit/da9a260ccaadf2374f99634515a50e5384cc9077))
+
+
+
 ## [0.5.1](https://github.com/vinayakkulkarni/s-offline/compare/v0.5.0...v0.5.1) (2022-12-04)
 
 
