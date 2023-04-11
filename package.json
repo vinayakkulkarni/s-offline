@@ -13,12 +13,16 @@
     "dist"
   ],
   "exports": {
-    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
     "./SOffline.svelte": {
       "types": "./dist/components/SOffline.svelte.d.ts",
       "svelte": "./dist/components/SOffline.svelte",
       "default": "./dist/components/SOffline.svelte"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "type": "module",
   "scripts": {
@@ -27,7 +31,7 @@
     "preview": "vite preview",
     "package": "svelte-package",
     "package:watch": "svelte-package --watch",
-    "prepublishOnly": "npm run package && npx publint",
+    "prepublishOnly": "npm run build && npx publint",
     "test": "echo 'test!'",
     "postinstall": "svelte-kit sync",
     "prepare": "is-ci || husky install",
