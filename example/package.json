@@ -21,7 +21,7 @@
     "vite": "^4.2.1"
   },
   "dependencies": {
-    "s-offline": "^0.5.1"
+    "s-offline": "^0.7.1"
   },
   "engines": {
     "node": ">=18.0.0",
