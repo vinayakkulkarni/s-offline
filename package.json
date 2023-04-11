@@ -10,9 +10,7 @@
   "cdn": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist",
-    "!**/*spec.js",
-    "!**/*spec.d.ts"
+    "dist"
   ],
   "exports": {
     "./package.json": "./package.json",
