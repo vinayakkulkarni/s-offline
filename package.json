@@ -25,7 +25,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build && npm run package",
+    "build": "vite build && npm run package && node scripts/copy.js",
     "preview": "vite preview",
     "package": "svelte-package",
     "package:watch": "svelte-package --watch",
