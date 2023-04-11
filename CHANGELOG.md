@@ -1,3 +1,13 @@
+# [0.7.0](https://github.com/vinayakkulkarni/s-offline/compare/v0.6.0...v0.7.0) (2023-04-11)
+
+
+### Features
+
+* add publint for lint checking pre-publish ([92ed354](https://github.com/vinayakkulkarni/s-offline/commit/92ed35482fade86f2576bf11d5f92d18ace25650))
+* update beforePublish command to run prepublish script ([d819b3c](https://github.com/vinayakkulkarni/s-offline/commit/d819b3ce7ff7b0646ea865bb44ab31f7fc485bca))
+
+
+
 # [0.6.0](https://github.com/vinayakkulkarni/s-offline/compare/v0.5.1...v0.6.0) (2023-04-11)
 
 
