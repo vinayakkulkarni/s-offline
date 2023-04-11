@@ -12,14 +12,19 @@
   "types": "./index.d.ts",
   "exports": {
     "./package.json": "./package.json",
-    "./components/SOffline.svelte": "./components/SOffline.svelte"
+    "./SOffline.svelte": {
+      "types": "./components/SOffline.svelte.d.ts",
+      "svelte": "./components/SOffline.svelte",
+      "default": "./components/SOffline.svelte"
+    }
   },
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "vite build && npm run package",
     "preview": "vite preview",
     "package": "svelte-package",
+    "package:watch": "svelte-package --watch",
     "test": "echo 'test!'",
     "postinstall": "svelte-kit sync",
     "prepare": "husky install",
