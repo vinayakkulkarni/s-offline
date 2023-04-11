@@ -12,10 +12,6 @@ const config = {
       appTemplate: 'src/_app.html',
     },
   },
-  package: {
-    dir: 'dist',
-    emitTypes: true,
-  },
 };
 
 export default config;
