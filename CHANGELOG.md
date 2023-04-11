@@ -1,3 +1,7 @@
+## [0.7.1](https://github.com/vinayakkulkarni/s-offline/compare/v0.7.0...v0.7.1) (2023-04-11)
+
+
+
 # [0.7.0](https://github.com/vinayakkulkarni/s-offline/compare/v0.6.0...v0.7.0) (2023-04-11)
 
 
