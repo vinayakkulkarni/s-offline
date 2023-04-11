@@ -15,9 +15,9 @@
   "exports": {
     "./package.json": "./package.json",
     "./SOffline.svelte": {
-      "types": "./components/SOffline.svelte.d.ts",
-      "svelte": "./components/SOffline.svelte",
-      "default": "./components/SOffline.svelte"
+      "types": "./dist/components/SOffline.svelte.d.ts",
+      "svelte": "./dist/components/SOffline.svelte",
+      "default": "./dist/components/SOffline.svelte"
     }
   },
   "type": "module",
@@ -27,6 +27,7 @@
     "preview": "vite preview",
     "package": "svelte-package",
     "package:watch": "svelte-package --watch",
+    "prepublishOnly": "npm run package && npx publint",
     "test": "echo 'test!'",
     "postinstall": "svelte-kit sync",
     "prepare": "is-ci || husky install",
@@ -73,6 +74,7 @@
     "postcss-html": "^1.5.0",
     "prettier": "^2.8.7",
     "prettier-plugin-svelte": "^2.10.0",
+    "publint": "^0.1.11",
     "sass": "^1.61.0",
     "shipjs": "^0.26.2",
     "stylelint": "^15.4.0",
