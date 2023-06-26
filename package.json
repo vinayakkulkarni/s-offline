@@ -60,7 +60,7 @@
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
     "@sveltejs/adapter-static": "^2.0.2",
-    "@sveltejs/kit": "^1.20.4",
+    "@sveltejs/kit": "^1.20.5",
     "@sveltejs/package": "^2.1.0",
     "@tsconfig/svelte": "^4.0.1",
     "@types/node": "^20.3.1",
