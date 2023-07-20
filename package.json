@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.7",
-    "@commitlint/config-conventional": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.7",
     "@sveltejs/adapter-static": "^2.0.2",
     "@sveltejs/kit": "^1.22.3",
     "@sveltejs/package": "^2.2.0",
