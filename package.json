@@ -81,7 +81,7 @@
     "publint": "^0.2.4",
     "sass": "^1.69.3",
     "shipjs": "^0.26.3",
-    "stylelint": "^15.10.3",
+    "stylelint": "^15.11.0",
     "stylelint-config-recommended-scss": "^13.0.0",
     "stylelint-prettier": "^3.0.0",
     "svelte": "^3.59.2",
