@@ -82,7 +82,7 @@
     "sass": "^1.69.5",
     "shipjs": "^0.26.3",
     "stylelint": "^15.11.0",
-    "stylelint-config-recommended-scss": "^13.0.0",
+    "stylelint-config-recommended-scss": "^13.1.0",
     "stylelint-prettier": "^3.0.0",
     "svelte": "^3.59.2",
     "svelte-check": "^3.5.2",
