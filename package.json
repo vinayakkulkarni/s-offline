@@ -61,7 +61,7 @@
     "@commitlint/config-conventional": "^18.4.3",
     "@sveltejs/adapter-static": "^2.0.3",
     "@sveltejs/kit": "^1.30.3",
-    "@sveltejs/package": "^2.2.3",
+    "@sveltejs/package": "^2.2.4",
     "@tsconfig/svelte": "^5.0.2",
     "@types/node": "^20.10.5",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
