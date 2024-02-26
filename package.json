@@ -65,7 +65,7 @@
     "@tsconfig/svelte": "^5.0.2",
     "@types/node": "^20.11.20",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
+    "@typescript-eslint/parser": "^7.0.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jsdoc": "^46.9.1",
