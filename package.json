@@ -62,7 +62,7 @@
     "@sveltejs/adapter-static": "^2.0.3",
     "@sveltejs/kit": "^1.30.3",
     "@sveltejs/package": "^2.3.0",
-    "@tsconfig/svelte": "^5.0.2",
+    "@tsconfig/svelte": "^5.0.3",
     "@types/node": "^20.11.30",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
