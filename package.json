@@ -63,7 +63,7 @@
     "@sveltejs/kit": "^1.30.3",
     "@sveltejs/package": "^2.3.2",
     "@tsconfig/svelte": "^5.0.4",
-    "@types/node": "^20.14.2",
+    "@types/node": "^20.14.4",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^8.57.0",
