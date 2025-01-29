@@ -54,7 +54,7 @@
   },
   "peerDependencies": {
     "ping.js": "^0.3.0",
-    "svelte": "^3.59.2"
+    "svelte": "^5.19.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.4.1",
@@ -84,7 +84,7 @@
     "stylelint": "^15.11.0",
     "stylelint-config-recommended-scss": "^13.1.0",
     "stylelint-prettier": "^3.0.0",
-    "svelte": "^3.59.2",
+    "svelte": "^5.19.4",
     "svelte-check": "^3.8.6",
     "svelte-preprocess": "^5.1.4",
     "typescript": "^5.5.4",
