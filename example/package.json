@@ -18,7 +18,7 @@
     "svelte-preprocess": "^5.1.4",
     "tslib": "^2.8.1",
     "typescript": "^5.9.2",
-    "vite": "^4.5.5"
+    "vite": "^7.1.4"
   },
   "dependencies": {
     "s-offline": "^0.7.1"
