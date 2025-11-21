@@ -18,11 +18,11 @@ jobs:
     steps:
       - name: Check out repository ✨ (non dependabot)
         if: ${{ github.actor != 'dependabot[bot]' }}
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Check out repository 🎉 (dependabot)
         if: ${{ github.actor == 'dependabot[bot]' }}
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.head.sha }}
 
